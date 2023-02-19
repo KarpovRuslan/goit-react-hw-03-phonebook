@@ -1,0 +1,41 @@
+.ContactList {
+  width: 400px;
+  border: 1px solid rebeccapurple;
+  padding: 10px;
+  margin-left: 15px;
+  margin-top: 0;
+}
+
+.ContactList__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ContactList__text {
+  margin: 0;
+  margin-right: 10px;
+}
+.ContactList__btn {
+  background-color: #568f8f;
+  border-radius: 8px;
+  border-style: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 8px 16px;
+  margin-top: 5px;
+}
+
+.ContactList__btn:hover,
+.ContactList__btn:focus {
+  background-color: #bfd9d9;
+  color: #000000;
+}
+
+.ContactList_find {
+  font-size: 20px;
+  margin-bottom: 2px;
+  margin-top: 0;
+  font-weight: 600;
+}
